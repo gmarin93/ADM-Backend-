@@ -18,9 +18,9 @@ app.use('/api/auth',require('./routes/auth'));
 app.use('/api/proyectos',require('./routes/proyectos'));
 app.use('/api/tareas',require('./routes/tareas'));
 
-app.get('/',(req,res)=>{
-    res.send("Hoklnrlcla");
-})
+// app.get('/',(req,res)=>{
+//     res.send("Hoklnrlcla");
+// })
 
 app.listen(port, '0.0.0.0',()=>{
     console.log(`El servidor estar funcionando correctamente en el puerto: ${port}`);
